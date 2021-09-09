@@ -1,0 +1,263 @@
+.header1{
+    font-family: initial;
+    color: rgb(255, 0, 0);
+    border-style: double;
+    font-size: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.header2{
+    font-family: initial;
+    color: #00ffaa;
+    border-style: double;
+    font-size: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: linear-gradient(to right, #007c53, indigo);
+}
+.header3{
+    font-family: initial;
+    color: rgb(0, 217, 255);
+    border-style: double;
+    font-size: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: linear-gradient(to right, #007c53, indigo)
+}
+.topnav2 a{
+    border-block-start-style: unset; 
+    float: right;
+    color: rgb(0, 217, 255);
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: #007c53;
+    font-size: 25px;
+}
+.topnav2 a:hover{
+    box-shadow: 0 0 100px #00ffaa;
+    background-color: #00583b;
+    color: aqua;
+}
+
+
+.page1{
+    background-image: url("images/background/cry.gif");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.page2{
+    background-image: url("images/background/Kermit.jpg");
+    background-attachment: fixed;
+    background-size: 840px;
+}
+
+.page5{
+    background-image: url("images/background/nateastley.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img{
+    width: 500px;
+    margin: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    object-fit: cover;
+}
+
+img:hover{
+    box-shadow: 0 0 100px rgb(2, 0, 126); 
+}
+
+quote:hover{
+    box-shadow: 0 0 100px rgb(2, 0, 126);
+}
+quote{
+    border-block-end-style: outset;
+    font-size: 150%;
+    color: rgb(255, 0, 0);
+    font-family: initial;
+    margin-left: center;
+    margin-right: center;
+}
+
+.topnav4 a {
+    border-block-start-style: unset; 
+    float: right;
+    color: #ff0000;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: #ff0000;
+    font-size: 25px;
+    
+}
+.topnav3 a{
+    border-block-start-style: unset;
+    float: right;
+    color: rgb(75, 202, 224);
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: lightcyan;
+    font-size: 25px;
+}
+
+
+.topnav3 a:hover{
+    box-shadow: 0 0 100px rgb(3, 0, 187)
+}
+
+
+.topnav3 a:hover {
+  background-color: rgba(0, 0, 0, 0.774) ;
+  color:lightpink;
+}
+.topnav1 a {
+    border-block-start-style: initial;
+    float: right;
+    color: #00ffaa;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: blue;
+    font-size: 25px;
+}
+.topnav1 a:hover{
+    box-shadow: 0 0 100px #00ffaa;
+    background-color: #00583b;
+    color: aqua;
+}
+.topnav1 a.active{
+    color: #0084ff;
+}
+
+
+.topnav4 a:hover{
+    box-shadow: 0 0 100px rgb(3, 0, 187)
+}
+.topnav4 a.active {
+  color: rgba(255, 0, 0, 0.322);
+}
+
+.topnav4 a:hover {
+  background-color: rgba(0, 0, 0, 0.774) ;
+  color:lightpink;
+}
+
+.page4{
+    background-image: url("images/bcca logo.png");
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.page3{
+    background-image: url("images/background/binary background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.div1{
+    /* float: left;
+    display: flex; */
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.div2{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    /* float: right;
+    display: flex; */
+}
+img { 
+    border-right: #ff0000 10px outset;
+    border-bottom: #ff0000 4px outset; 
+    border-left: #ff0000 8px outset; 
+    border-top: #ff0000 4px outset;
+}
+.page4{
+    background-image: url("images/background/bcca logo.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@media screen{
+    max-width: 100%;
+
+}
+
+@media only screen and (max-device-width: 480px), only screen and (-webkit-min-device-pixel-ratio: 2) , screen and (-webkit-device-pixel-ratio:1.5){
+    .Container {
+        width: 90%;
+        min-width: 480px;
+        margin: auto;
+    }
+
+    header {
+        float: center;
+        width: 100%;
+        height: 150px;
+        line-height: 150px;
+        background-color: #313131;
+    }
+
+    nav {
+        width: 100%;
+        height: 70px;
+        background-color: #0099ff;
+    }
+
+    .content {
+        width: 100%;
+        height: 900px;
+        clear:both;
+        padding: 10px 0px;
+        color: red;
+        font-size:35px;
+    }
+
+    footer {
+        width: 100%;
+        height: 80px;
+        background-color: #808080;
+        margin-bottom: 20px;
+    }
+
+    .main_articles {
+        width: 95%;
+        float: center;
+        height: auto;
+        margin:auto;
+    }
+
+    .side_article {
+        display: none;
+        visibility: hidden;
+    }
+
+
+
+    image {
+        float: center;
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+
+        image{
+            float: center;
+            width: 100%;
+            height: 100%;
+            margin-left: 5px;
+            border: 2px solid #6d6d6d;
+        }
+
+    
+}
